@@ -1,0 +1,1461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/carousel-2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: rgb(237, 227, 227);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+.feature-box {
+    width: 48%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.red-box {
+    background-color: #e53935;
+}
+
+.black-box {
+    background-color: #333;
+}
+
+.feature-box h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.feature-box .btn {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.feature-box .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.features-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+}
+
+.feature-box {
+    width: 48%;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    margin-top: -120px;
+}
+
+.red-box {
+    background-color: #e53935;
+    /* border: 1px solid red; */
+}
+
+.black-box {
+    background-color: #333;
+    /* border: 1px solid red; */
+    margin-right: 57px;
+}
+
+.feature-box h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.feature-box p {
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.feature-box .btn {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.feature-box .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: white;
+    line-height: 1.6;
+}
+
+a.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #e53935;
+    color: #e53935;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a.btn:hover {
+    background-color: #e53935;
+    color: #fff;
+}
+
+/* Experience Section Styles */
+.experience-section {
+    padding: 50px;
+   
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Left Image Section */
+.experience-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+/* Right Content Section */
+.experience-content {
+    width: 60%;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.feature {
+    text-align: center;
+    width: 45%;
+}
+
+.feature h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #333;
+}
+
+.feature p {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.icon {
+    font-size: 40px;
+    color: #e53935;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px;
+    width: 30%;
+
+    flex: 1;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.icon img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.progression {
+    background-color: #1c1c1c;
+}
+
+.workout {
+    background-color: #e03a3e;
+}
+
+.nutrition {
+    background-color: #1c1c1c;
+}
+
+
+
+/* Benefits Section */
+.benefits {
+    display: flex;
+    justify-content: center; /* Centering the container horizontally */
+    align-items: center; /* Align items vertically if needed */
+    flex-direction: column; /* Stack title and content */
+    text-align: center;
+   
+    padding: 40px 0;
+}
+
+/* Section Titles */
+.section-title {
+    color: #e03a3e;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Benefit Container */
+.benefit-container {
+    display: flex;
+    justify-content: center; /* Center the items inside the container */
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Horizontally center the container */
+}
+
+/* Benefit Item */
+.benefit-item {
+    background-color: white;
+    border-radius: 8px;
+    width: 48%;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+/* Benefit Image */
+.benefit-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 0 0 8px;
+    object-fit: cover;
+}
+
+/* Benefit Content */
+.benefit-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.benefit-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.benefit-content p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Icon Styling */
+.icon img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+.newsletter-container {
+    background-image: url('./img/bg.jpg'); /* Replace with your image */
+    background-size: cover;
+    /* background-position: center; */
+    position: relative;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    width: 300px;
+    max-width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e63946;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d62828;
+}
+
+.containers {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.containers h3 {
+    color: red;
+    margin-top: 85px;
+}
+
+.containers h1 {
+    color:black;
+    margin-top: 25px;
+  
+    
+}
+
+.filter-buttons {
+    margin-bottom: 20px;
+}
+
+.filter-buttons button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #666;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.filter-buttons button.active,
+.filter-buttons button:hover {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+}
+
+table th, table td {
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+thead th {
+    background-color: black;
+    color: white;
+}
+
+td strong {
+    color: red;
+    display: block;
+}
+.row
+{
+    color:white;
+    background-color:black;
+}
+
+.containers-new {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin-top:80px;
+    margin-left: 10%;
+    gap: 0px;
+}
+
+.left-section {
+    flex: 3;
+    display: flex;
+    background-image: url('./img/carousel-1.jpg'); 
+    height: 68vh;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.left-section h2 {
+    color: red;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.left-section h1 {
+    font-size: 3em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.left-section p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    
+    text-align: center;
+}
+
+.right-section {
+   
+    background-color: #222;
+    padding: 20px;
+    
+}
+
+.right-section h2 {
+    font-size: 2em;
+    margin-bottom: 80px;
+    color:white
+}
+
+.bmi-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+.bmi-form input, .bmi-form select, .bmi-form button {
+    padding: 15px;
+    border:1px white;
+   
+    font-size: 1em;
+}
+
+.bmi-form input, .bmi-form select {
+    background-color: #333;
+    color: #fff;
+}
+
+.bmi-form button {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.bmi-form button:hover {
+    background-color: darkred;
+}
+
+
+.trainers-section {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.section-subtitle {
+    color: red;
+    font-size: 1.5em;
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color:black;
+}
+
+.trainers-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.trainer-card {
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 240px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.trainer-card img {
+    width: 100%;
+    height: auto;
+}
+
+.trainer-info {
+    padding: 20px;
+}
+
+.trainer-info h3 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.trainer-info p {
+    color: white;
+    font-size: 1em;
+}
+
+/* Hover effect */
+.trainer-card:hover {
+    transform: scale(1.05);
+}
+
+
+
+.testimonial-section {
+    background-image: url('./img/carousel-2.jpg'); 
+    background-repeat: no-repeat;
+    padding: 20px;
+    flex: 1;
+    color: #fff;
+    padding: 1px 1px 1px 1px;
+    margin-left: 10%;
+}
+
+.testimonial-container {
+    display: flex;
+    
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimonial-left {
+    background-color: #1b1b1b;
+    padding: 20px;
+    max-width:600px;
+    width: 100%;
+    position: relative;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+}
+
+.client-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.client-details {
+    display: inline-block;
+}
+
+.client-name {
+    color: #ff5555;
+}
+
+.client-profession {
+    color: #aaa;
+}
+
+.testimonial-text {
+    margin: 15px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.testimonial-dots {
+    text-align: center;
+}
+
+.testimonial-dots span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #555;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.testimonial-right {
+    max-width: 500px;
+    width: 100%;
+}
+
+.testimonial-right h2 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.testimonial-right .highlight {
+    color: #ff5555;
+}
+
+.testimonial-right p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.blog-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+   
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.latest-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: center; /* Center the items */
+    gap: 18px; /* Minimal space between the items */
+    flex-wrap: wrap;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    flex: 1;
+    margin: px;
+}
+
+.post-image img {
+    width: 100%;
+   
+}
+
+.post-content {
+    padding: 20px;
+}
+
+.post-date {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.post-excerpt {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid red;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: red;
+    color: white;
+}
+
+
+footer {
+    background-color:black;
+    padding: 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 50px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 15px;
+    min-width: 200px;
+}
+
+.footer-column h3 {
+    margin-bottom: 15px;
+    color: red;
+}
+
+.footer-column p, 
+.footer-column ul,
+.footer-column a {
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul {
+    list-style-type: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+
+
+
+
+
+
+
+
+
+/* Tablet Responsiveness */
+@media (max-width: 1024px) {
+    .nav-links {
+        font-size: 1em;
+    }
+
+    .hero-text h2 {
+        font-size: 2.5em;
+    }
+
+    .hero-text p {
+        font-size: 1.3em;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .feature-box {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 30px;
+        margin-top: 0;
+    }
+    
+    .black-box {
+        margin-right: 0;
+    }
+    .experience-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-image img {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .experience-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .card {
+        width: 45%; /* Cards take 45% of the width */
+    }
+    .benefit-item {
+        width: 48%;
+    }
+    h1 {
+        font-size: 2.8rem;
+    }
+    
+    p {
+        font-size: 1.1rem;
+    }
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .filter-buttons button {
+        padding: 8px 18px;
+        font-size: 0.9rem;
+    }
+
+    table th, table td {
+        padding: 18px;
+        font-size: 1rem;
+    }
+    .containers-new {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .left-section h1 {
+        font-size: 2.5em;
+    }
+
+    .left-section p {
+        font-size: 1.1em;
+    }
+
+    .right-section h2 {
+        font-size: 1.8em;
+    }
+
+    .bmi-form input, .bmi-form select, .bmi-form button {
+        padding: 12px;
+        font-size: 0.95em;
+    }
+    .trainers-container {
+        gap: 15px;
+    }
+
+    .trainer-card {
+        width: 200px;
+    }
+
+    .section-title {
+        font-size: 2em;
+    }
+    .testimonial-container {
+        flex-direction: column;
+    }
+
+    .testimonial-left,
+    .testimonial-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .testimonial-right h2 {
+        font-size: 28px;
+    }
+    .blog-posts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        padding: 30px 50px;
+    }
+
+    .footer h3 {
+        font-size: 16px;
+    }
+
+    .footer .links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer .contact-info,
+    .footer .quick-links,
+    .footer .popular-links,
+    .footer .hours {
+        width: 45%;
+        margin-bottom: 15px;
+    }
+
+    .footer .social-icons {
+        margin-top: 10px;
+    }
+
+    .footer .bottom-text {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hero-text h2 {
+        font-size: 2em;
+    }
+
+    .hero-text p {
+        font-size: 1.2em;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .feature-box {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .hero {
+        height: 60vh;
+    }
+
+    .hero .btn {
+        padding: 8px 16px;
+    }
+    .features-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .feature-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .feature-box h3 {
+        font-size: 10px;
+    }
+
+    .feature-box p {
+        font-size: 0.9em;
+        margin-bottom: 15px;
+    }
+
+    .feature-box .btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+     .experience-section {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+    .card {
+        width: 45%;
+    }
+    .benefit-item {
+        width: 100%;
+    }
+
+    .benefit-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    input[type="email"] {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    table th, table td {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    td strong {
+        font-size: 1rem;
+    }
+    .containers-new {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .right-section {
+        margin-top: 20px;
+    }
+    .trainers-container {
+        gap: 10px;
+    }
+
+    .trainer-card {
+        width: 180px;
+    }
+
+    .section-title {
+        font-size: 1.8em;
+    }
+    .testimonial-left {
+        padding: 15px;
+    }
+
+    .testimonial-right h2 {
+        font-size: 24px;
+    }
+    .blog-posts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post {
+        max-width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-column {
+        margin: 20px 0;
+    }
+
+
+
+    .section-subtitle {
+        font-size: 2rem;
+    }
+  
+    .timetable thead th, .timetable tbody td {
+        padding: 10px;
+    }
+
+
+
+
+
+    
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px 0;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+
+    input[type="email"] {
+        width: 200px;
+    }
+
+    button {
+        padding: 8px 15px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    table th, table td {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    td strong {
+        font-size: 0.9rem;
+    }
+    .left-section h1 {
+        font-size: 2.5em;
+    }
+
+    .left-section p {
+        font-size: 1em;
+    }
+
+    .right-section h2 {
+        font-size: 1.5em;
+    }
+
+    .bmi-form input, .bmi-form select, .bmi-form button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+    .trainers-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .trainer-card {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 1.6em;
+    }
+    .testimonial-left {
+        max-width: 100%;
+    }
+
+    .testimonial-right h2 {
+        font-size: 20px;
+    }
+    .latest-title {
+        font-size: 24px;
+    }
+
+    .post-date {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .post-title {
+        font-size: 18px;
+    }
+
+    .post-meta {
+        font-size: 12px;
+    }
+
+    .post-excerpt {
+        font-size: 14px;
+    }
+
+    .read-more {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .post {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-container {
+        padding: 0 20px;
+    }
+
+    .social-icons a {
+        font-size: 1.2em;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+    }
+  
+    .section-subtitle {
+        font-size: 1.5rem;
+    }
+  
+    .filter-btn {
+        padding: 8px 12px;
+    }
+  
+    .timetable thead th, .timetable tbody td {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+    
+    
+}
+
+.timetable-section {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    color: red;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Class Filters */
+  .class-filters {
+    margin-bottom: 20px;
+  }
+  
+  .filter-btn {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    color:red;
+  }
+  
+  .filter-btn.active {
+    background-color: red;
+    color: #fff;
+  }
+  
+  .filter-btn:hover {
+    background-color: #d10000;
+    color: #fff;
+  }
+  
+  /* Timetable Table */
+  .timetable {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .timetable thead th {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .timetable tbody td {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .timetable tbody td strong {
+    display: block;
+    color: #d10000;
+    margin-bottom: 5px;
+  }
